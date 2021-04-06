@@ -1,0 +1,3 @@
+export const SET_NEXT_QUESTION = "SET_NEXT_QUESTION";
+export const GET_RESULT = "GET_RESULT";
+export const SET_ACTIVE_OPTION = "SET_ACTIVE_OPTION";
