@@ -52,7 +52,7 @@ const Quiz = () => {
                 <>
                     <h2>Quiz</h2>
                     <hr />
-                    <div className="card mb-4 d-none d-lg-block">
+                    <div className="card mb-4">
                         <div className={`card-body`} >
                             <h5 className="card-title">
                                 <span>{visibleQuestion.question}</span>
