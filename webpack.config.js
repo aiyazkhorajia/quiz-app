@@ -9,9 +9,8 @@ module.exports = {
     entry: path.resolve(__dirname, "src/index.js"),
     //Where we put the production code
     output: {
-        path: path.resolve(__dirname, "build"),
-        filename: "bundle.[contenthash].js",
-        publicPath: "/",
+        path: path.resolve(__dirname, "./build"),
+        filename: "bundle.[contenthash].js"
     },
     // This says to webpack that we are in development mode and write the code in webpack file in different way
     mode: "development",
