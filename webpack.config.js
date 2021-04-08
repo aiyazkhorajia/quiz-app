@@ -9,7 +9,7 @@ module.exports = {
     entry: path.resolve(__dirname, "src/index.js"),
     //Where we put the production code
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "build"),
         filename: "bundle.[contenthash].js",
         publicPath: "/",
     },
@@ -65,7 +65,7 @@ module.exports = {
     //Config for webpack-dev-server module
     devServer: {
         historyApiFallback: true,
-        contentBase: path.resolve(__dirname, "dist"),
+        contentBase: path.resolve(__dirname, "build"),
         hot: true,
         port: 8000,
     },

@@ -1,5 +1,6 @@
 {
-  "name": "timezone-app",
+  "name": "quiz-app",
+  "homepage": "http://aiyazkhorajia.github.io/quiz-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +20,9 @@
     "start": "webpack serve --open chrome",
     "build": "webpack --mode production",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +51,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.2.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.4.0",
     "postcss": "^8.2.9",
