@@ -14,7 +14,7 @@ const AnswerColumn = ({options, answer}) => {
     return (
         <>
             {options && options.map((o) => (
-                <div className="col-2" key={o}>
+                <div className="col-lg-2 col-sm-6 col-xs-12" key={o}>
                     <div 
                         className={`ans-content border-radius ${activeOption === o ? "active" : ""}`} 
                         onClick={() => handleSelect(o)} >
@@ -64,12 +64,12 @@ const Quiz = () => {
                         {(questions.length - 1) > visibleQuestionIndex 
                         ?   <button 
                                 type="button" 
-                                className="btn btn-outline-primary btn-lg m-4"
+                                className="btn btn-outline-primary btn-lg m-4 btn-custom"
                                 onClick={() => handleNext()} 
                             >Next</button>
                         :   <button 
                                 type="button" 
-                                className="btn btn-outline-primary btn-lg m-4"
+                                className="btn btn-outline-primary btn-lg m-4 btn-custom"
                                 onClick={() => handleSubmit()} 
                             >Result</button>
                         }
