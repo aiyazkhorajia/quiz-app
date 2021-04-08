@@ -2858,7 +2858,7 @@ main .container-fluid {
 #app-container.menu-hidden main,
 #app-container.menu-sub-hidden main,
 #app-container.sub-hidden main {
-  margin-left: 180px
+  margin-left: 40px
 }
 
 #app-container.main-hidden main,
@@ -2879,7 +2879,7 @@ main .container-fluid {
   #app-container.menu-hidden main,
   #app-container.menu-sub-hidden main,
   #app-container.sub-hidden main {
-    margin-left: 160px
+    margin-left: 40px
   }
 
   #app-container.main-hidden main,
@@ -2901,7 +2901,7 @@ main .container-fluid {
   #app-container.menu-hidden main,
   #app-container.menu-sub-hidden main,
   #app-container.sub-hidden main {
-    margin-left: 140px
+    margin-left: 40px
   }
 
   #app-container.main-hidden main,
@@ -7182,18 +7182,6 @@ i.large-icon {
   margin-bottom: 1rem
 }
 
-.social-image-row [class*=col-]:nth-last-child(-n+2) {
-  margin-bottom: 0
-}
-
-.social-image-row [class*=col-]:nth-child(odd) {
-  padding-right: .5rem
-}
-
-.social-image-row [class*=col-]:nth-child(even) {
-  padding-left: .5rem
-}
-
 .gallery-page.row {
   margin-left: -5px;
   margin-right: -5px
@@ -8850,7 +8838,7 @@ i.large-icon {
 .rtl#app-container.menu-hidden main,
 .rtl#app-container.menu-sub-hidden main,
 .rtl#app-container.sub-hidden main {
-  margin-right: 180px
+  margin-right: 40px
 }
 
 .rtl#app-container.main-hidden main,
@@ -8871,7 +8859,7 @@ i.large-icon {
   .rtl#app-container.menu-hidden main,
   .rtl#app-container.menu-sub-hidden main,
   .rtl#app-container.sub-hidden main {
-    margin-right: 160px
+    margin-right: 40px
   }
 
   .rtl#app-container.main-hidden main,
@@ -8893,7 +8881,7 @@ i.large-icon {
   .rtl#app-container.menu-hidden main,
   .rtl#app-container.menu-sub-hidden main,
   .rtl#app-container.sub-hidden main {
-    margin-right: 140px
+    margin-right: 40px
   }
 
   .rtl#app-container.main-hidden main,
@@ -9145,7 +9133,7 @@ footer.page-footer .footer-content {
   #app-container.menu-hidden .footer-content,
   #app-container.menu-sub-hidden .footer-content,
   #app-container.sub-hidden .footer-content {
-    margin-left: 140px
+    margin-left: 40px
   }
 
   #app-container.main-hidden .footer-content,
@@ -10863,4 +10851,8 @@ footer.page-footer .footer-content {
 
 .hide {
   display: none;
+}
+
+.btn-custom {
+  max-width: 200px;
 }
