@@ -1,4 +1,5 @@
 import React from 'react';
+import Stepper from 'react-stepper-horizontal';
 import {useSelector, useDispatch} from 'react-redux';
 import { setNextQuestion, getResult, setActiveOption } from '../store/actions';
 import QuizResult from '../components/QuizResult';
@@ -51,7 +52,9 @@ const Quiz = () => {
                 :
                 <>
                     <h2>Quiz</h2>
-                    <hr />
+                    <div className='py-3'>
+                        <Stepper steps={questions} activeStep={ visibleQuestionIndex } titleFontSize={0} circleTop={10} size={28} circleFontSize={12} completeBarColor='#DEDEDE'/>
+                    </div>
                     <div className="card mb-4">
                         <div className={`card-body`} >
                             <h5 className="card-title">
